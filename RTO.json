@@ -1,0 +1,105 @@
+{
+ "code": "M404",
+ "connector": "RTO-144",
+ "type": null,
+ "series": null,
+ "contacts": "22 contacts",
+ "verified": null,
+ "derived": true,
+ "variant_of": "M404A",
+ "pins": [
+  {
+   "pin": "5",
+   "signal": "FILTER IN LEFT",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "+",
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "6",
+   "signal": "FILTER IN LEFT",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "-",
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "13",
+   "signal": "FILTER OUT LEFT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "+",
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "14",
+   "signal": "FILTER OUT LEFT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "-",
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "18",
+   "signal": "COMMON",
+   "kind": "ground",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "19",
+   "signal": "COMMON",
+   "kind": "ground",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "20",
+   "signal": "+24 V",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "22",
+   "signal": "+48 V",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "variant",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
+   "page": 1
+  }
+ ],
+ "straps": [],
+ "power": [],
+ "sources": [
+  "Engineering/RTO-144/M404A/M404A.rto144.json"
+ ]
+}
