@@ -80,6 +80,21 @@ mod plugin {
                 lf: self.lf.value() as usize,
             }
         }
+
+        /// The same settings from plain parameter values looked up by parameter id (bool 0 / 1, int and enum as
+        /// their index): how a host outside nih-plug (the Pro Tools build) drives the DSP.
+        pub fn settings_from(v: &dyn Fn(&str) -> f32) -> Settings {
+            Settings {
+                eq_on: (v("eq_on") > 0.5),
+                mode: match <Selector as Enum>::from_index(v("mode").round() as usize) {
+                    Selector::Hi => Mode::Hi,
+                    Selector::Both => Mode::Both,
+                    Selector::Lo => Mode::Lo,
+                },
+                hf: (v("hf").round() as i32) as usize,
+                lf: (v("lf").round() as i32) as usize,
+            }
+        }
     }
 
     pub struct Plugin {
@@ -143,6 +158,22 @@ mod plugin {
     impl Vst3Plugin for Plugin {
         const VST3_CLASS_ID: [u8; 16] = *b"WBS-M404-HiLoEq1";
         const VST3_SUBCATEGORIES: &'static [Vst3SubCategory] = &[Vst3SubCategory::Fx, Vst3SubCategory::Filter, Vst3SubCategory::Eq];
+    }
+
+    #[cfg(test)]
+    mod settings_from_tests {
+        use super::*;
+
+        #[test]
+        fn settings_from_matches_settings() {
+            let p = Params404::default();
+            let map = p.param_map();
+            let v = |id: &str| {
+                let (_, ptr, _) = map.iter().find(|(i, _, _)| i == id).expect(id);
+                unsafe { ptr.unmodulated_plain_value() }
+            };
+            assert_eq!(format!("{:?}", Params404::settings_from(&v)), format!("{:?}", p.settings()));
+        }
     }
 
     nih_export_clap!(Plugin);
