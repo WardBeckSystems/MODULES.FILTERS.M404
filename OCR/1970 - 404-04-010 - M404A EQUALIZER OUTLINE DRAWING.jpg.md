@@ -32,7 +32,7 @@ Outline drawing of an equalizer module package with panel cutout.
 - **Dots (junctions):** 1
 - **Words (OCR):** 40 in 27 lines: 250 · 6.0 · PANEL FINISH · CLEAR CHARACTEAS' · ECUA · TZFR CN · Ecun · PANEL CUTOUT · 4-40 · Kthk RC: CCNNECTOR · Dins ON This SIDE · cini
 
-Every curve, box, word and wire group: [1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING (traced).json](../MECHANICAL/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING%20(traced).json) (the CAD file: `1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING (traced).dxf`).
+Every curve, box, word and wire group: [1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING (traced).json](../MECHANICAL/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING%20%28traced%29.json) (the CAD file: `1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING (traced).dxf`).
 
 ## Full text
 

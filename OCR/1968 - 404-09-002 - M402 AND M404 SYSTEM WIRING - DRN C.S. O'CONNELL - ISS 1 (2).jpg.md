@@ -33,7 +33,7 @@ Wiki page: [M404](../../../../PAGES/M404.md)
 - **Dots (junctions):** 2
 - **Wiring (first pass):** 87 connected wire groups from 514 runs, 2 dotted junctions
 
-Every curve, box, word and wire group: [1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2) (traced).json](../SCHEMATICS/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20(2)%20(traced).json) (the CAD file: `1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2) (traced).dxf`).
+Every curve, box, word and wire group: [1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2) (traced).json](../SCHEMATICS/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2) (traced).dxf`).
 
 ## Full text
 

@@ -21,7 +21,7 @@ Wiki page: [M404](../../../../PAGES/M404.md)
 - **Closed boxes:** 31
 - **Wiring (first pass):** 69 connected wire groups from 428 runs
 
-Every curve, box, word and wire group: [1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED (traced).json](../SCHEMATICS/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED%20(traced).json) (the CAD file: `1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED (traced).dxf`).
+Every curve, box, word and wire group: [1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED (traced).json](../SCHEMATICS/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED (traced).dxf`).
 
 ## Full text
 
