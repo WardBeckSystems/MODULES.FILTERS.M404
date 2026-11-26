@@ -3,7 +3,7 @@
 The Ward-Beck M404 Hi-Lo Pass Equalizer (1968|1) as a **VST3 / CLAP plugin** with its M404A escutcheon, and as
 the DSP the **Ward-Beck Audio Tap** can run as an insert.
 
-**Download** the VST3 / CLAP for Windows, macOS and Linux from this repo's [releases](https://github.com/WardBeckSystems/MODULES.FILTERS.M404/releases/latest). All Ward-Beck plugins: [Ward-Beck Plugin Core](https://github.com/WardBeckSystems/Ward-Beck-Plugin-Core#plugins).
+**Download** the VST3 / CLAP for Windows, macOS and Linux from this repo's [releases](https://github.com/WardBeckSystems/MODULES.FILTERS.M404-Equalizer/releases/latest). All Ward-Beck plugins: [Ward-Beck Plugin Core](https://github.com/WardBeckSystems/Ward-Beck-Plugin-Core#plugins).
 
 | Control | Positions | What it does |
 |---|---|---|
