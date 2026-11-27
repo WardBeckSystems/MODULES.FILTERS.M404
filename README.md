@@ -1,16 +1,16 @@
-# M404 · Filters
+# M404 Equalizer · Filters
 
 Ward-Beck Systems M404, 1968|1. Wiki page: [M404 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M404.html)
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 27 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 4 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 2 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 18 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 29 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 0 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 5 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 29 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 8 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 3 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 19 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 30 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 3 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 7 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -63,20 +63,12 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 
 Not on Google Drive yet: `1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg`
 
-## 3-D model
-
-[`MECHANICAL/M404.stl`](MECHANICAL/M404.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M404)
-
-- **Size:** 40.13 × 168.27 mm panel, 152.4 mm deep, 3.2 mm plate (TECHNICAL DATA: 1.58W X 6.625L X 6D (depth below panel) inches)
-- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M404 - front panel.svg`)
-- Made by `tools/module_models.py` (→ `MECHANICAL/M404.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
-
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKMDJIWmVWa0FuV2c/view?resourcekey=0-FlBfyF6t8z6jDPEq7jivbA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKMDJIWmVWa0FuV2c&resourcekey=0-FlBfyF6t8z6jDPEq7jivbA" width="240" alt="1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg"></a><br><sub>1968|1 · 129-06-001 - BEND RAD UNESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbjE3YWFBUENJVlk/view?resourcekey=0--5-tDUOl07j7J-oICPyPvg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbjE3YWFBUENJVlk&resourcekey=0--5-tDUOl07j7J-oICPyPvg" width="240" alt="1968 - M404 - 129-06-002 - BEND RAD UNLESS' SPECIFIED.jpg"></a><br><sub>1968|1 · 129-06-002 - BEND RAD UNLESS' SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKQXFYbDM2VThCUzA/view?resourcekey=0-ZKcIXX88AGMm8BwCkM_cfA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKQXFYbDM2VThCUzA&resourcekey=0-ZKcIXX88AGMm8BwCkM_cfA" width="240" alt="1968 - M404 - 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED.jpg"></a><br><sub>1968|1 · 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKMDJIWmVWa0FuV2c/view?resourcekey=0-FlBfyF6t8z6jDPEq7jivbA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKMDJIWmVWa0FuV2c&resourcekey=0-FlBfyF6t8z6jDPEq7jivbA" width="240" alt="1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg"></a><br><sub>1968|1 · 129-06-001 - BEND RAD UNESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbjE3YWFBUENJVlk/view?resourcekey=0--5-tDUOl07j7J-oICPyPvg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbjE3YWFBUENJVlk&resourcekey=0--5-tDUOl07j7J-oICPyPvg" width="240" alt="1968 - M404 - 129-06-002 - BEND RAD UNLESS' SPECIFIED.jpg"></a><br><sub>1968|1 · 129-06-002 - BEND RAD UNLESS' SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKQXFYbDM2VThCUzA/view?resourcekey=0-ZKcIXX88AGMm8BwCkM_cfA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKQXFYbDM2VThCUzA&resourcekey=0-ZKcIXX88AGMm8BwCkM_cfA" width="240" alt="1968 - M404 - 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED.jpg"></a><br><sub>1968|1 · 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKLVp2aHU3a2tNdkk/view?resourcekey=0-lEL8v641zYZR7VssGTsdLw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKLVp2aHU3a2tNdkk&resourcekey=0-lEL8v641zYZR7VssGTsdLw" width="240" alt="1968 - M404 - 404-02-001.jpg"></a><br><sub>1968|1 · 404-02-001 · <a href="SCHEMATICS/1968%20-%20M404%20-%20404-02-001%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbmpLcm5SSWdmTzQ/view?resourcekey=0-X0UdF0VHMBxqvw36bYh69Q" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbmpLcm5SSWdmTzQ&resourcekey=0-X0UdF0VHMBxqvw36bYh69Q" width="240" alt="1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg"></a><br><sub>1968|1 · 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
@@ -95,45 +87,23 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKYUZFMVRyUktzS1k/view?resourcekey=0-ZUw_IxzPFp50KVpyLDzNLg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKYUZFMVRyUktzS1k&resourcekey=0-ZUw_IxzPFp50KVpyLDzNLg" width="240" alt="1968 - M404 - P8.jpg"></a><br><sub>1968|1 · P8</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKV0ZlRTZ0OVpoS1E/view?resourcekey=0-WQyWy7og_sjTwC2YYeXz7g" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKV0ZlRTZ0OVpoS1E&resourcekey=0-WQyWy7og_sjTwC2YYeXz7g" width="240" alt="1968 - M404 - P9.jpg"></a><br><sub>1968|1 · P9</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B9I0nu1MPkm6eGl5c2lYdWFuZ0k/view?resourcekey=0-U_28fKTB-7qkOBBzskUU6w" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B9I0nu1MPkm6eGl5c2lYdWFuZ0k&resourcekey=0-U_28fKTB-7qkOBBzskUU6w" width="240" alt="19xx - M404 - AD - 20170522_122029_020.jpg"></a><br><sub>19xx - M404 - AD - 20170522_122029_020</sub></td></tr>
 </table>
 
-## RTO-144 pinout
-
-Read from 2 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
-
-**To check:**
-
-- insert guessed: which of B/M is the source and which the destination is inferred, not labelled. (M402: 1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.jpg)
-- insert guessed: which of B/M is the source and which the destination is inferred, not labelled. (M402: 1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.jpg)
-
-**Inserts:** EQ IN/OUT LOOP 1: EQ SEND → EQ SEND RETURN · EQ IN/OUT LOOP 2: EQ RETURN SEND → EQ RETURN
-
-| Pin | Signal | Kind | Port | Confidence |
-|---|---|---|---|---|
-| A | INPUT A | in | INPUT | medium |
-| B | EQ INSERT SEND | insert_send | EQ SEND | medium |
-| C | INPUT B | in | INPUT | medium |
-| D | INPUT STRAP | strap |  | medium |
-| E | EQ INSERT IN | insert_return | EQ SEND RETURN | medium |
-| F | INPUT STRAP | strap |  | medium |
-| H | +48 V | power |  | medium |
-| J | EQ INSERT OUT | insert_send | EQ RETURN SEND | medium |
-| K | COMMON | ground |  | medium |
-| L | INPUT SHIELD | shield | INPUT shield | medium |
-| M | EQ INSERT RETURN | insert_return | EQ RETURN | medium |
-| N | CHASSIS GROUND | ground |  | medium |
-| P | OUTPUT A | out | OUTPUT | medium |
-| R | OUTPUT B | out | OUTPUT | medium |
-
-**Straps:** 600Ω INPUT: P1-D P1-F · 150Ω INPUT: P1-A P1-D · EQ NORMAL: P1-B P1-E
-
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
 
 - [1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2).kicad_sch](KICAD/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20(2).kicad_sch)
 - [1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1.kicad_sch](KICAD/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201.kicad_sch)
+- [1968 - M404 - 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED.kicad_sch](KICAD/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.kicad_sch)
 - [1968 - M404 - 404-02-001.kicad_sch](KICAD/1968%20-%20M404%20-%20404-02-001.kicad_sch)
 - [1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.kicad_sch](KICAD/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.kicad_sch)
 - [M404.kicad_sym](KICAD/M404.kicad_sym)
+- [index.html](KICAD/index.html)
+
+## Software
+
+- [cpp](SOFTWARE/cpp)
+- [index.html](SOFTWARE/index.html)
+- [plugin](SOFTWARE/plugin): the Rust VST3 / CLAP plugin and Audio Tap insert
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
