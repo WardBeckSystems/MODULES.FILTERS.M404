@@ -3,103 +3,365 @@
  "connector": "RTO-144",
  "type": null,
  "series": null,
- "contacts": "22 contacts",
- "verified": null,
- "derived": true,
- "variant_of": "M404A",
- "pins": [
+ "connectors": [
   {
-   "pin": "5",
-   "signal": "FILTER IN LEFT",
-   "kind": "in",
-   "pair": "A1",
-   "polarity": "+",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "6",
-   "signal": "FILTER IN LEFT",
-   "kind": "in",
-   "pair": "A1",
-   "polarity": "-",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "13",
-   "signal": "FILTER OUT LEFT",
-   "kind": "out",
-   "pair": "A2",
-   "polarity": "+",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "14",
-   "signal": "FILTER OUT LEFT",
-   "kind": "out",
-   "pair": "A2",
-   "polarity": "-",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "18",
-   "signal": "COMMON",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "19",
-   "signal": "COMMON",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "20",
-   "signal": "+24 V",
-   "kind": "power",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "22",
-   "signal": "+48 V",
-   "kind": "power",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M404A/M404A.rto144.json",
-   "page": 1
+   "name": "P1",
+   "kind": "connector",
+   "contacts": 15,
+   "rows": "A-R lettered, 3 rows (A D H L P / B E J M / C F K N R)",
+   "view": null,
+   "part": null
   }
  ],
- "straps": [],
- "power": [],
- "sources": [
-  "Engineering/RTO-144/M404A/M404A.rto144.json"
+ "verified": null,
+ "built_from": {
+  "pictures": [
+   "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+   "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
+ "pins": [
+  {
+   "connector": "P1",
+   "pin": "A",
+   "ref": "A",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT A",
+   "kind": "in",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "B",
+   "ref": "B",
+   "also": null,
+   "same_row": null,
+   "signal": "EQ INSERT SEND",
+   "kind": "insert_send",
+   "port": "EQ SEND",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "C",
+   "ref": "C",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT B",
+   "kind": "in",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "D",
+   "ref": "D",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT STRAP",
+   "kind": "strap",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "E",
+   "ref": "E",
+   "also": null,
+   "same_row": null,
+   "signal": "EQ INSERT IN",
+   "kind": "insert_return",
+   "port": "EQ SEND RETURN",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "F",
+   "ref": "F",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT STRAP",
+   "kind": "strap",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "H",
+   "ref": "H",
+   "also": null,
+   "same_row": null,
+   "signal": "+48 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "J",
+   "ref": "J",
+   "also": null,
+   "same_row": null,
+   "signal": "EQ INSERT OUT",
+   "kind": "insert_send",
+   "port": "EQ RETURN SEND",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "K",
+   "ref": "K",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "L",
+   "ref": "L",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT SHIELD",
+   "kind": "shield",
+   "port": "INPUT",
+   "polarity": "shield",
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "M",
+   "ref": "M",
+   "also": null,
+   "same_row": null,
+   "signal": "EQ INSERT RETURN",
+   "kind": "insert_return",
+   "port": "EQ RETURN",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "N",
+   "ref": "N",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS GROUND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "P",
+   "ref": "P",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT A",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "R",
+   "ref": "R",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT B",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.pinout.json",
+    "M402/PINOUTS/1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "INPUT",
+   "dir": "in",
+   "pins": {
+    "+": "P1-A",
+    "-": "P1-C",
+    "shield": "P1-L"
+   }
+  },
+  {
+   "name": "OUTPUT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-P",
+    "-": "P1-R"
+   }
+  },
+  {
+   "name": "EQ SEND",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P1-B"
+   }
+  },
+  {
+   "name": "EQ SEND RETURN",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P1-E"
+   }
+  },
+  {
+   "name": "EQ RETURN SEND",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P1-J"
+   }
+  },
+  {
+   "name": "EQ RETURN",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P1-M"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "name": "EQ IN/OUT LOOP 1",
+   "send": "EQ SEND",
+   "return": "EQ SEND RETURN",
+   "normalled": true,
+   "note": "B-E strapped when no external switch; external switch IN connects B-E"
+  },
+  {
+   "name": "EQ IN/OUT LOOP 2",
+   "send": "EQ RETURN SEND",
+   "return": "EQ RETURN",
+   "normalled": true,
+   "note": "J-M strapped when no external switch; external switch IN connects J-M; switch OUT ties B to M (bypass)"
+  }
+ ],
+ "straps": [
+  {
+   "name": "600Ω INPUT",
+   "pins": [
+    "P1-D",
+    "P1-F"
+   ],
+   "note": "600Ω input wiring"
+  },
+  {
+   "name": "150Ω INPUT",
+   "pins": [
+    "P1-A",
+    "P1-D"
+   ],
+   "note": "NOTE 1: FOR 150Ω INPUT CONNECT 'A TO D', 'C TO F', REMOVE 'F TO D'"
+  },
+  {
+   "name": "EQ NORMAL",
+   "pins": [
+    "P1-B",
+    "P1-E"
+   ],
+   "note": "drawn on the 150Ω connector (no external switch)"
+  }
+ ],
+ "conflicts": [],
+ "to_check": [
+  {
+   "what": "insert guessed",
+   "pin": null,
+   "detail": "which of B/M is the source and which the destination is inferred, not labelled. (M402: 1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.jpg)"
+  },
+  {
+   "what": "insert guessed",
+   "pin": null,
+   "detail": "which of B/M is the source and which the destination is inferred, not labelled. (M402: 1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.jpg)"
+  }
  ]
 }

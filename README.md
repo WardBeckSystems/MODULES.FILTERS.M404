@@ -87,6 +87,36 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKYUZFMVRyUktzS1k/view?resourcekey=0-ZUw_IxzPFp50KVpyLDzNLg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKYUZFMVRyUktzS1k&resourcekey=0-ZUw_IxzPFp50KVpyLDzNLg" width="240" alt="1968 - M404 - P8.jpg"></a><br><sub>1968|1 · P8</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKV0ZlRTZ0OVpoS1E/view?resourcekey=0-WQyWy7og_sjTwC2YYeXz7g" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKV0ZlRTZ0OVpoS1E&resourcekey=0-WQyWy7og_sjTwC2YYeXz7g" width="240" alt="1968 - M404 - P9.jpg"></a><br><sub>1968|1 · P9</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B9I0nu1MPkm6eGl5c2lYdWFuZ0k/view?resourcekey=0-U_28fKTB-7qkOBBzskUU6w" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B9I0nu1MPkm6eGl5c2lYdWFuZ0k&resourcekey=0-U_28fKTB-7qkOBBzskUU6w" width="240" alt="19xx - M404 - AD - 20170522_122029_020.jpg"></a><br><sub>19xx - M404 - AD - 20170522_122029_020</sub></td></tr>
 </table>
 
+## RTO-144 pinout
+
+Read from 2 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
+
+**To check:**
+
+- insert guessed: which of B/M is the source and which the destination is inferred, not labelled. (M402: 1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.jpg)
+- insert guessed: which of B/M is the source and which the destination is inferred, not labelled. (M402: 1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.jpg)
+
+**Inserts:** EQ IN/OUT LOOP 1: EQ SEND → EQ SEND RETURN · EQ IN/OUT LOOP 2: EQ RETURN SEND → EQ RETURN
+
+| Pin | Signal | Kind | Port | Confidence |
+|---|---|---|---|---|
+| A | INPUT A | in | INPUT | medium |
+| B | EQ INSERT SEND | insert_send | EQ SEND | medium |
+| C | INPUT B | in | INPUT | medium |
+| D | INPUT STRAP | strap |  | medium |
+| E | EQ INSERT IN | insert_return | EQ SEND RETURN | medium |
+| F | INPUT STRAP | strap |  | medium |
+| H | +48 V | power |  | medium |
+| J | EQ INSERT OUT | insert_send | EQ RETURN SEND | medium |
+| K | COMMON | ground |  | medium |
+| L | INPUT SHIELD | shield | INPUT shield | medium |
+| M | EQ INSERT RETURN | insert_return | EQ RETURN | medium |
+| N | CHASSIS GROUND | ground |  | medium |
+| P | OUTPUT A | out | OUTPUT | medium |
+| R | OUTPUT B | out | OUTPUT | medium |
+
+**Straps:** 600Ω INPUT: P1-D P1-F · 150Ω INPUT: P1-A P1-D · EQ NORMAL: P1-B P1-E
+
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
