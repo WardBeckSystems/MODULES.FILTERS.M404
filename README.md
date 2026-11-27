@@ -13,6 +13,33 @@ Ward-Beck Systems M404, 1968|1. Wiki page: [M404 on WBSps.ca](https://wardbecksy
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 5 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+## Specifications
+
+From the technical data sheet: [1968 - M404 - P3.jpg](MANUALS/1968%20-%20M404%20-%20P3.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Matched gain** | 38db |
+| **Frequency response** | +0.5db from 2Ohz (effects controls at zero position) |
+| **Equivalent input noise** | -l15dbm (1ohz to 100Kh z bandwidth) |
+| **Harmonic distortion** | Less than 0.59 from 30hz to 20Khz (measured at +l8dbm output level) |
+| **Source impedance** | 150/600 ohms balanced or unbalanced |
+| **Input impedance** | 150/600 ohms |
+| **Input level** | -38db nominal, -20dbm maximum |
+| **Load impedance** | 600 ohms |
+| **Output impedance** | 600 ohms (150 ohms available) +10% |
+| **Output level** | +l8dbm maximum |
+| **Phasing** | The low terminal number of the input pair and the 1 OW terminal number of the output pair are in phase |
+| **Equalizing characteristics** | In accordance with specified curves within 1 0.5db |
+| **Power requirements** | 48 volts dc, regulated from M648 or equivalent 10OmA |
+| **Ambient temperature** | to 60 |
+| **Dimensions** | 1.58W X 6.625L X 6D (depth below panel) inches |
+| **Weight** | 1h2 lbs Net |
+
+<!-- /module data -->
+
 ## Photos
 
 _Photographs of the module itself: front, back, inside, racked._

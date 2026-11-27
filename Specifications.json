@@ -1,0 +1,196 @@
+{
+ "module": "M404",
+ "title": "",
+ "source": {
+  "file": "MANUALS/1968 - M404 - P3.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.95,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Matched gain",
+   "key": "matched_gain",
+   "text": "38db",
+   "quantities": [
+    {
+     "value": 38,
+     "unit": "db"
+    }
+   ]
+  },
+  {
+   "name": "Frequency response",
+   "key": "frequency_response",
+   "text": "+0.5db from 2Ohz (effects controls at zero position)",
+   "quantities": [
+    {
+     "value": 0.5,
+     "unit": "db"
+    }
+   ]
+  },
+  {
+   "name": "Equivalent input noise",
+   "key": "equivalent_input_noise",
+   "text": "-l15dbm (1ohz to 100Kh z bandwidth)",
+   "quantities": [
+    {
+     "value": 15,
+     "unit": "dbm"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "Less than 0.59 from 30hz to 20Khz (measured at +l8dbm output level)",
+   "quantities": [
+    {
+     "value": 30,
+     "unit": "hz"
+    },
+    {
+     "value": 20,
+     "unit": "Khz"
+    },
+    {
+     "value": 8,
+     "unit": "dbm"
+    }
+   ]
+  },
+  {
+   "name": "Source impedance",
+   "key": "source_impedance",
+   "text": "150/600 ohms balanced or unbalanced",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Input impedance",
+   "key": "input_impedance",
+   "text": "150/600 ohms",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Input level",
+   "key": "input_level",
+   "text": "-38db nominal, -20dbm maximum",
+   "quantities": [
+    {
+     "value": -38,
+     "unit": "db"
+    },
+    {
+     "value": -20,
+     "unit": "dbm"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "600 ohms",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output impedance",
+   "key": "output_impedance",
+   "text": "600 ohms (150 ohms available) +10%",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    },
+    {
+     "value": 150,
+     "unit": "ohms"
+    },
+    {
+     "value": 10,
+     "unit": "%"
+    }
+   ]
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "+l8dbm maximum",
+   "quantities": [
+    {
+     "value": 8,
+     "unit": "dbm"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "The low terminal number of the input pair and the 1 OW terminal number of the output pair are in phase"
+  },
+  {
+   "name": "Equalizing characteristics",
+   "key": "equalizing_characteristics",
+   "text": "In accordance with specified curves within 1 0.5db",
+   "quantities": [
+    {
+     "value": 0.5,
+     "unit": "db"
+    }
+   ]
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "48 volts dc, regulated from M648 or equivalent 10OmA",
+   "quantities": [
+    {
+     "value": 48,
+     "unit": "volts dc"
+    }
+   ]
+  },
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "to 60"
+  },
+  {
+   "name": "Dimensions",
+   "key": "dimensions",
+   "text": "1.58W X 6.625L X 6D (depth below panel) inches",
+   "quantities": [
+    {
+     "value": 1.58,
+     "unit": "W"
+    }
+   ]
+  },
+  {
+   "name": "Weight",
+   "key": "weight",
+   "text": "1h2 lbs Net",
+   "quantities": [
+    {
+     "value": 2,
+     "unit": "lbs"
+    }
+   ]
+  }
+ ]
+}
