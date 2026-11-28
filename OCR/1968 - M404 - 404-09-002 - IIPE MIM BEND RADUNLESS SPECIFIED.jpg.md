@@ -1,5 +1,5 @@
 # 1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg
-Wiki page: [M404](../../../../PAGES/M404.md)
+Wiki page: [M404](../)
 
 
 - **Year:** 1968 (module estimate (labelled))

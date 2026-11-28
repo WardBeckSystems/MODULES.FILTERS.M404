@@ -1,5 +1,5 @@
 # 1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2).jpg
-Wiki page: [M404](../../../../PAGES/M404.md)
+Wiki page: [M404](../)
 
 
 - **Year:** 1968 (title block date)

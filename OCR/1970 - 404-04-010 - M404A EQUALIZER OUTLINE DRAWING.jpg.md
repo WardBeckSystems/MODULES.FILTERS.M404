@@ -1,5 +1,5 @@
 # 1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg
-Wiki page: [M404](../../../../PAGES/M404.md)
+Wiki page: [M404](../)
 
 
 - **Year:** 1970 (title block date)
