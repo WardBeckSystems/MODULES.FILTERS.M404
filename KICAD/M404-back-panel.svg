@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1362 830" font-family="Overpass Mono, Consolas, ui-monospace, monospace">
+<title>M404 Equalizer: back panel, rear view of the connectors</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="323.2" y="53.8" font-size="22.0" dominant-baseline="middle" text-anchor="middle" fill="#1F1E1C" font-weight="700">P1 · rear view</text>
+<rect x="253.2" y="103.8" width="140.0" height="614.0" fill="#E9E4D4" stroke="#6D6A63" stroke-width="3.00"/>
+<rect x="263.2" y="139.4" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="153.4" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">1</text>
+<rect x="329.2" y="139.4" width="54.0" height="28.0" fill="#2E6B34" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="153.4" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">A</text>
+<text x="395.2" y="153.4" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#2E6B34">INPUT-A</text>
+<rect x="263.2" y="179.0" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="193.0" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">2</text>
+<rect x="329.2" y="179.0" width="54.0" height="28.0" fill="#1F5F8B" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="193.0" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">B</text>
+<text x="395.2" y="193.0" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#1F5F8B">EQ-INSERT-SEND</text>
+<rect x="263.2" y="218.6" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="232.6" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">3</text>
+<rect x="329.2" y="218.6" width="54.0" height="28.0" fill="#2E6B34" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="232.6" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">C</text>
+<text x="395.2" y="232.6" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#2E6B34">INPUT-B</text>
+<rect x="263.2" y="258.2" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="272.2" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">4</text>
+<rect x="329.2" y="258.2" width="54.0" height="28.0" fill="#555555" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="272.2" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">D</text>
+<text x="395.2" y="272.2" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#555555">INPUT-STRAP</text>
+<rect x="263.2" y="297.8" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="311.8" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">5</text>
+<rect x="329.2" y="297.8" width="54.0" height="28.0" fill="#2E6B34" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="311.8" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">E</text>
+<text x="395.2" y="311.8" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#2E6B34">EQ-INSERT-IN</text>
+<rect x="263.2" y="337.4" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="351.4" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">6</text>
+<rect x="329.2" y="337.4" width="54.0" height="28.0" fill="#555555" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="351.4" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">F</text>
+<text x="395.2" y="351.4" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#555555">INPUT-STRAP</text>
+<rect x="263.2" y="376.9" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="390.9" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">7</text>
+<rect x="329.2" y="376.9" width="54.0" height="28.0" fill="#A52A22" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="390.9" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">H</text>
+<text x="395.2" y="390.9" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#A52A22">+48V</text>
+<rect x="263.2" y="416.6" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="430.6" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">8</text>
+<rect x="329.2" y="416.6" width="54.0" height="28.0" fill="#1F5F8B" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="430.6" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">J</text>
+<text x="395.2" y="430.6" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#1F5F8B">EQ-INSERT-OUT</text>
+<rect x="263.2" y="456.2" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="470.1" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">9</text>
+<rect x="329.2" y="456.2" width="54.0" height="28.0" fill="#333333" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="470.1" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">K</text>
+<text x="395.2" y="470.1" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#333333">COMMON</text>
+<rect x="263.2" y="495.8" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="509.8" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">10</text>
+<rect x="329.2" y="495.8" width="54.0" height="28.0" fill="#333333" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="509.8" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">L</text>
+<text x="395.2" y="509.8" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#333333">INPUT-SHIELD</text>
+<rect x="263.2" y="535.4" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="549.4" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">11</text>
+<rect x="329.2" y="535.4" width="54.0" height="28.0" fill="#2E6B34" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="549.4" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">M</text>
+<text x="395.2" y="549.4" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#2E6B34">EQ-INSERT-RETURN</text>
+<rect x="263.2" y="575.0" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="588.9" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">12</text>
+<rect x="329.2" y="575.0" width="54.0" height="28.0" fill="#333333" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="588.9" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">N</text>
+<text x="395.2" y="588.9" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#333333">CHASSIS-GROUND</text>
+<rect x="263.2" y="614.5" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="628.6" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">13</text>
+<rect x="329.2" y="614.5" width="54.0" height="28.0" fill="#1F5F8B" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="628.6" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">P</text>
+<text x="395.2" y="628.6" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#1F5F8B">OUTPUT-A</text>
+<rect x="263.2" y="654.2" width="54.0" height="28.0" fill="#FFFFFF" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="290.2" y="668.1" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#6D6A63" font-weight="700">14</text>
+<rect x="329.2" y="654.2" width="54.0" height="28.0" fill="#1F5F8B" stroke="#6D6A63" stroke-width="1.50"/>
+<text x="356.2" y="668.1" font-size="15.0" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-weight="700">R</text>
+<text x="395.2" y="668.1" font-size="17.0" dominant-baseline="middle" text-anchor="start" fill="#1F5F8B">OUTPUT-B</text>
+<rect x="40.0" y="765.8" width="24.0" height="24.0" fill="#2E6B34" stroke="none" stroke-width="0.00"/>
+<text x="74.0" y="777.8" font-size="16.0" dominant-baseline="middle" text-anchor="start" fill="#1F1E1C">input</text>
+<rect x="280.0" y="765.8" width="24.0" height="24.0" fill="#1F5F8B" stroke="none" stroke-width="0.00"/>
+<text x="314.0" y="777.8" font-size="16.0" dominant-baseline="middle" text-anchor="start" fill="#1F1E1C">output</text>
+<rect x="520.0" y="765.8" width="24.0" height="24.0" fill="#A52A22" stroke="none" stroke-width="0.00"/>
+<text x="554.0" y="777.8" font-size="16.0" dominant-baseline="middle" text-anchor="start" fill="#1F1E1C">power</text>
+<rect x="760.0" y="765.8" width="24.0" height="24.0" fill="#333333" stroke="none" stroke-width="0.00"/>
+<text x="794.0" y="777.8" font-size="16.0" dominant-baseline="middle" text-anchor="start" fill="#1F1E1C">ground / shield</text>
+<rect x="1000.0" y="765.8" width="24.0" height="24.0" fill="#7A4E2A" stroke="none" stroke-width="0.00"/>
+<text x="1034.0" y="777.8" font-size="16.0" dominant-baseline="middle" text-anchor="start" fill="#1F1E1C">control</text>
+<rect x="1240.0" y="765.8" width="24.0" height="24.0" fill="#555555" stroke="none" stroke-width="0.00"/>
+<text x="1274.0" y="777.8" font-size="16.0" dominant-baseline="middle" text-anchor="start" fill="#1F1E1C">other</text>
+</svg>
