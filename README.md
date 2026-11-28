@@ -4,13 +4,13 @@ Ward-Beck Systems M404, 1968|1. Wiki page: [M404 on WBSps.ca](https://wardbecksy
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 29 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 8 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 3 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 19 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 30 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 3 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 7 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 28 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 7 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 2 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 18 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 29 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 2 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 6 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -61,7 +61,13 @@ _Photographs of the module itself: front, back, inside, racked._
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._
 
-Not on Google Drive yet: `1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg`
+## 3-D model
+
+[`MECHANICAL/M404.stl`](MECHANICAL/M404.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M404)
+
+- **Size:** 40.13 × 168.27 mm panel, 152.4 mm deep, 3.2 mm plate (TECHNICAL DATA: 1.58W X 6.625L X 6D (depth below panel) inches)
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M404 - front panel.svg`)
+- Made by `tools/module_models.py` (→ `MECHANICAL/M404.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
@@ -71,8 +77,6 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKMDJIWmVWa0FuV2c/view?resourcekey=0-FlBfyF6t8z6jDPEq7jivbA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKMDJIWmVWa0FuV2c&resourcekey=0-FlBfyF6t8z6jDPEq7jivbA" width="240" alt="1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg"></a><br><sub>1968|1 · 129-06-001 - BEND RAD UNESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbjE3YWFBUENJVlk/view?resourcekey=0--5-tDUOl07j7J-oICPyPvg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbjE3YWFBUENJVlk&resourcekey=0--5-tDUOl07j7J-oICPyPvg" width="240" alt="1968 - M404 - 129-06-002 - BEND RAD UNLESS' SPECIFIED.jpg"></a><br><sub>1968|1 · 129-06-002 - BEND RAD UNLESS' SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKQXFYbDM2VThCUzA/view?resourcekey=0-ZKcIXX88AGMm8BwCkM_cfA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKQXFYbDM2VThCUzA&resourcekey=0-ZKcIXX88AGMm8BwCkM_cfA" width="240" alt="1968 - M404 - 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED.jpg"></a><br><sub>1968|1 · 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKLVp2aHU3a2tNdkk/view?resourcekey=0-lEL8v641zYZR7VssGTsdLw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKLVp2aHU3a2tNdkk&resourcekey=0-lEL8v641zYZR7VssGTsdLw" width="240" alt="1968 - M404 - 404-02-001.jpg"></a><br><sub>1968|1 · 404-02-001 · <a href="SCHEMATICS/1968%20-%20M404%20-%20404-02-001%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKbmpLcm5SSWdmTzQ/view?resourcekey=0-X0UdF0VHMBxqvw36bYh69Q" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKbmpLcm5SSWdmTzQ&resourcekey=0-X0UdF0VHMBxqvw36bYh69Q" width="240" alt="1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg"></a><br><sub>1968|1 · 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED · <a href="SCHEMATICS/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
-
-Not on Google Drive yet: `1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2).jpg`, `1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1.jpg`
 
 ## Manuals and documents
 
@@ -97,12 +101,10 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1968 - M404 - 404-02-001.kicad_sch](KICAD/1968%20-%20M404%20-%20404-02-001.kicad_sch)
 - [1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.kicad_sch](KICAD/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.kicad_sch)
 - [M404.kicad_sym](KICAD/M404.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ## Software
 
 - [cpp](SOFTWARE/cpp)
-- [index.html](SOFTWARE/index.html)
 - [plugin](SOFTWARE/plugin): the Rust VST3 / CLAP plugin and Audio Tap insert
 
 ---
